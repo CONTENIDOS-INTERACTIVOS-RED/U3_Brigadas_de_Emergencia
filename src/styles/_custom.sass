@@ -26,6 +26,10 @@
     background-color: #FEF0D7
   &-5
     background-color: #D8ECEA
+  &-6
+    background-color: #F3F3F3
+  &-7
+    background-color: #E8E7F2
   &-info
     background-color: #E8EEFD
   &-sintesis
@@ -50,11 +54,18 @@
   @media screen and (max-width: $bp-max-sm)
     padding-left: 1.5rem
     padding-right: 1.5rem
-
+.bg-full-width-2
+  background-size: contain
+  background-repeat: no-repeat
+  background-position: bottom
+  margin-inline: -3.3rem
+  @media screen and (max-width: $bp-max-sm)
+    padding-left: 1.5rem
+    padding-right: 1.5rem
 .bg-fondo
   &-1
     background-image: url("../assets/bg/bg1.png") !important
-    background-position-y: -100px
+    background-position: top
   &-2
     background-image: url("../assets/bg/bg2.png") !important
     background-position: bottom
@@ -63,6 +74,9 @@
     background-position: top
   &-4
     background-image: url("../assets/bg/bg4.png") !important
+    background-position: bottom
+  &-5
+    background-image: url("../assets/bg/bg5.png") !important
     background-position: bottom
   &-slider
     background-image: url("../assets/bg/bg-slider.png") !important
@@ -100,7 +114,7 @@ $custom-card-img-height: 322px
   &:hover
     transform: scale(1.01)
   &__image
-    height: 225px
+    height: 225px !important
     object-fit: cover
 
 
@@ -164,9 +178,9 @@ $custom-card-img-height: 322px
   background-color: transparent
 
 .img-infografica__item, .img-infografica-b__item
-  width: 48px !important
+  width: 40px !important
   @media screen and (max-width: $bp-max-sm)
-    width: 38px !important
+    width: 32px !important
   
 
 .img-infografica__item__dot:before, .img-infografica-b__item__dot:before
@@ -221,4 +235,19 @@ $custom-card-img-height: 322px
 
 
 .lista-ul .fas
-  color: #9B4467 !important
+  color: #292584 !important
+
+
+.card
+  position: relative
+  .card-number
+    position: absolute
+    top: 0
+    left: 0
+    width: 34px
+    height: 34px
+    background-color: #292584
+    color: #fff
+    display: flex
+    align-items: center
+    justify-content: center
