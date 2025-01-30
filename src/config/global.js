@@ -34,45 +34,6 @@ export default {
         desarrolloContenidos: true,
       },
       {
-        nombreRuta: 'tema4',
-        icono: 'far fa-file-alt',
-        numero: '4',
-        titulo: 'Identificación de los tipos de brigadas de emergencia',
-        desarrolloContenidos: true,
-        subMenu: [
-          {
-            icono: 'far fa-file-alt',
-            numero: '4.1',
-            titulo: 'Brigada de evacuación',
-            hash: 't_4_1',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '4.2',
-            titulo: 'Brigada de primeros auxilios',
-            hash: 't_4_2',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '4.3',
-            titulo: 'Brigada de prevención y combate de incendio',
-            hash: 't_4_3',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '4.4',
-            titulo: 'Brigada de comunicación',
-            hash: 't_4_4',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '4.5',
-            titulo: 'Brigada de búsqueda y rescate',
-            hash: 't_4_5',
-          },
-        ],
-      },
-      {
         nombreRuta: 'sintesis',
         titulo: 'Síntesis',
         desarrolloContenidos: true,

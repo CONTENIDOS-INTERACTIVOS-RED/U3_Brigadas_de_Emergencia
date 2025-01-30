@@ -56,7 +56,7 @@
             
             
             TarjetaAudio.color-acento-botones.bg-color-white.mb-3(
-              texto="Fundamentos de la innovación estratégica"
+              texto="Evaluación de necesidades"
               tiempo
               :audio="require('../../assets/curso/podcast/podcast1.mp3')"
             )
@@ -150,7 +150,7 @@
             h2.mb-4(data-aos="flip-up") Metodologías de capacitación para brigadas de emergencia  
             p.mb-4(data-aos="fade-right") En el PDF Metodologías de capacitación para brigadas de emergencia,  se presentan diversos enfoques de formación que permiten desarrollar tanto habilidades técnicas como competencias blandas necesarias para una respuesta eficaz. Estas metodologías abarcan desde talleres prácticos y simulacros hasta entrenamientos sobre el terreno y formación en línea, asegurando que los brigadistas adquieran conocimientos teóricos y prácticos para actuar de manera rápida, eficiente y segura en situaciones de emergencia.
 
-            a.anexo.mb-4.bg-white.w-fit(:href="obtenerLink('/downloads/Anexo_1.pdf')" target="_blank")(data-aos="flip-up")
+            a.anexo.mb-4.bg-white.w-fit(:href="obtenerLink('/downloads/Anexo_2.pdf')" target="_blank")(data-aos="flip-up")
               .anexo__icono(:style="{'background-color': '#FCDFDB'}")
                 img(src="@/assets/template/icono-pdf.svg")
               .anexo__texto
@@ -609,11 +609,11 @@
 
             p.d-flex.my-4
               img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
-              a(href="https://gaia.gobiernobogota.gov.co/sites/default/files/documentos/sig/documentos/rol-brigadista.pdf" target="_blank" rel="noopener noreferrer") Gómez, E. P. G. (s/f). Rol del brigadista de emergencia y su certificación en la Secretaría Distrital de Gobierno.
+              a(href="https://elibro.net/es/lc/tecnologicadeloriente/titulos/70932" target="_blank" rel="noopener noreferrer") Torres Nieto, H. (2012). Manual de primeros auxilios y brigadas de emergencia: ( ed.). Fundación Universitaria del Área Andina. 
 
             p.d-flex.my-4
               img.me-3(src='@/assets/template/icono-yt.svg' :style="{'max-width':'16px'}")
-              a(href="https://www.youtube.com/watch?v=fv8aB0iqz6w" target="_blank" rel="noopener noreferrer") Johanita Meneses. (2017, 7 marzo). BRIGADA DE EMERGENCIA
+              a(href="https://www.youtube.com/watch?v=1CCaFPmigt4" target="_blank" rel="noopener noreferrer") UR Capacitaciones. (2024, 2 abril). UR Capacitaciones fichas de valoración y respuesta de emergencias
 
           .col-12.col-md-6.col-lg-3.offset-lg-1
             figure
