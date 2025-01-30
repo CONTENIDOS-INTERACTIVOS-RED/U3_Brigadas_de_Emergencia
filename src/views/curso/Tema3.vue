@@ -22,7 +22,7 @@
                 h5 Hoja de vida del brigadista
                 p El formato de hoja de vida de un brigadista es un documento que resume la experiencia, habilidades y formación de una persona que se ha capacitado o trabaja en áreas relacionadas con la prevención y atención de emergencias, como brigadas de emergencia, brigadas de salud, entre otras. Este tipo de hoja de vida puede ser utilizada para postularse a trabajos, cursos o programas relacionados con la gestión de riesgos, la seguridad y la atención a desastres.
 
-                a.anexo.mb-4.bg-white.w-fit(:href="obtenerLink('/downloads/Anexo_3.pdf')" target="_blank")(data-aos="flip-up")
+                a.anexo.mb-4.bg-white.w-fit(:href="obtenerLink('/downloads/HV_Brigadistas.xlsx')" target="_blank")(data-aos="flip-up")
                   .anexo__icono(:style="{'background-color': '#FCDFDB'}")
                     img(src="@/assets/template/icono-pdf.svg")
                   .anexo__texto
@@ -115,7 +115,7 @@
                 h5 Acta de conformación de brigada de emergencia
                 p El acta de conformación de brigadas de emergencia es un documento oficial que se utiliza para registrar la creación y el establecimiento de una brigada de emergencia en una organización, comunidad o institución. Este tipo de acta es fundamental para formalizar la estructura de la brigada, definir sus objetivos, funciones y responsabilidades, y asegurar que todos los miembros estén al tanto de su participación y compromiso. Este documento es clave, porque dentro de la resolución 0312 del 2019, por el cual se regula los estándares mínimos en seguridad y salud en el trabajo, se encuentra en la lista de chequeo del ministerio de trabajo exigiendo en la empresa con un cumplimiento obligatorio. (Ver anexo)  
 
-                a.anexo.mb-4.bg-white.w-fit(:href="obtenerLink('/downloads/Anexo_4.pdf')" target="_blank")(data-aos="flip-up")
+                a.anexo.mb-4.bg-white.w-fit(:href="obtenerLink('/downloads/Conformacion_de_brigada.docx')" target="_blank")(data-aos="flip-up")
                   .anexo__icono(:style="{'background-color': '#FCDFDB'}")
                     img(src="@/assets/template/icono-pdf.svg")
                   .anexo__texto
@@ -131,7 +131,7 @@
 
                 p Este documento es importante para llevar un control adecuado de los recursos disponibles y garantizar que el personal esté debidamente equipado para enfrentar emergencias de manera efectiva. (Ver anexo)  
 
-                a.anexo.mb-4.bg-white.w-fit(:href="obtenerLink('/downloads/Anexo_5.pdf')" target="_blank")(data-aos="flip-up")
+                a.anexo.mb-4.bg-white.w-fit(:href="obtenerLink('/downloads/Entrega_de_dotacion_de_brigadistas.docx')" target="_blank")(data-aos="flip-up")
                   .anexo__icono(:style="{'background-color': '#FCDFDB'}")
                     img(src="@/assets/template/icono-pdf.svg")
                   .anexo__texto
