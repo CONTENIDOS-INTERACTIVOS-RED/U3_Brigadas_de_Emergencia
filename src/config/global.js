@@ -15,22 +15,21 @@ export default {
         nombreRuta: 'tema1',
         icono: 'far fa-file-alt',
         numero: '1',
-        titulo: 'Marco conceptual y normativo',
+        titulo: 'Evidencias documentales',
         desarrolloContenidos: true,
       },
       {
         nombreRuta: 'tema2',
         icono: 'far fa-file-alt',
         numero: '2',
-        titulo:
-          'Legislación y normatividad nacional aplicable a las brigadas de emergencia',
+        titulo: 'Procedimientos',
         desarrolloContenidos: true,
       },
       {
         nombreRuta: 'tema3',
         icono: 'far fa-file-alt',
         numero: '3',
-        titulo: 'Conceptos básicos de las brigadas de emergencia',
+        titulo: 'Formatos e instructivos',
         desarrolloContenidos: true,
       },
       {
@@ -70,20 +69,9 @@ export default {
   },
   referencias: [
     {
-      referencia:
-        'Ley 599 de 2000 - Gestor Normativo. (s. f.). Función Pública.',
-      link:
-        'https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=6388',
-    },
-    {
       referencia: 'Resolución 2400 de 1979 Ministerio del Trabajo. (s. f.).',
       link:
         'https://www.alcaldiabogota.gov.co/sisjur/normas/Norma1.jsp?i=53565',
-    },
-    {
-      referencia:
-        'Ley 9 de 1979 Congreso de la República de Colombia. (s. f.).',
-      link: 'https://www.alcaldiabogota.gov.co/sisjur/normas/Norma1.jsp?i=1177',
     },
     {
       referencia:
@@ -101,12 +89,6 @@ export default {
         'Decreto Ley 1295 de 1994 - Gestor Normativo. (s. f.). Función Pública.',
       link:
         'https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=2629',
-    },
-    {
-      referencia:
-        'Ley 1523 de 2012 - Gestor Normativo. (s. f.). Función Pública.',
-      link:
-        'https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=47141',
     },
     {
       referencia:
@@ -129,79 +111,59 @@ export default {
   ],
   glosario: [
     {
-      termino: 'Brigada de Emergencias',
+      termino: 'Brigadista',
       significado:
-        'grupo de personas entrenadas para actuar en situaciones de emergencia, como incendios, desastres naturales o accidentes, con el objetivo de proteger vidas y bienes.',
+        'persona capacitada para responder a emergencias en una organización, como incendios, evacuaciones o primeros auxilios.',
     },
     {
-      termino: 'Centro de Comando',
+      termino: 'Desfibrilador Externo Automático (DEA)',
       significado:
-        'lugar designado donde se coordinan las respuestas a la emergencia y se gestionan los recursos.',
+        'dispositivo que administra descargas eléctricas para restablecer el ritmo cardíaco.',
     },
     {
-      termino: 'Comunicación de Emergencia',
+      termino: 'Emergencia',
       significado:
-        'mecanismos y estrategias para informar a la población y a los equipos de respuesta sobre la situación de emergencia y las instrucciones a seguir.',
-    },
-    {
-      termino: 'Equipamiento de Emergencia',
-      significado:
-        'herramientas y dispositivos utilizados por las brigadas para abordar diferentes tipos de emergencias, como extintores, equipos de rescate, botiquines de primeros auxilios, entre otros.',
-    },
-    {
-      termino: 'Evaluación de riesgos',
-      significado:
-        'proceso de identificar, analizar y valorar los riesgos asociados a posibles situaciones de emergencia.',
+        'situación crítica que requiere una respuesta inmediata para proteger vidas y bienes.',
     },
     {
       termino: 'Evacuación',
       significado:
-        'proceso de mover a personas de un lugar peligroso a un lugar seguro.',
+        'proceso de traslado seguro de personas a un lugar protegido durante una emergencia.',
     },
     {
-      termino: 'Plan de Emergencias',
+      termino: 'Extintor',
       significado:
-        'documento que contiene estrategias y procedimientos a seguir en caso de una emergencia para minimizar riesgos y coordinar acciones.',
+        'equipo portátil usado para apagar fuegos incipientes en situaciones de emergencia.',
     },
     {
-      termino: 'Prevención',
+      termino: 'Gestión de riesgos',
       significado:
-        'conjunto de acciones dirigidas a evitar que ocurran emergencias o desastres, o a reducir su impacto',
+        'identificación, evaluación y mitigación de amenazas que pueden afectar la seguridad.',
     },
     {
-      termino: 'Primeros Auxilios',
+      termino: 'Plan de emergencia',
       significado:
-        'asistencia inmediata que se proporciona a una persona lesionada o enferma antes de que llegue ayuda profesional.',
+        'documento que define procedimientos para actuar ante diferentes tipos de crisis.',
     },
     {
-      termino: 'Protocolos',
+      termino: 'Primeros auxilios',
       significado:
-        'conjuntos de procedimientos establecidos que deben seguirse durante situaciones de emergencia.',
-    },
-    {
-      termino: 'Rescate',
-      significado:
-        'acción de recuperar a personas que están en peligro, atrapadas o en una situación de emergencia.',
-    },
-    {
-      termino: 'Respuesta a Emergencias',
-      significado:
-        'acciones implementadas inmediatamente después de una emergencia para controlar la situación y minimizar daños.',
+        'técnicas iniciales de atención médica para estabilizar a una persona lesionada o enferma.',
     },
     {
       termino: 'Simulacro',
       significado:
-        'ejercicio práctico que replica una situación de emergencia para entrenar a los miembros de la brigada y mejorar la efectividad de la respuesta.',
+        'ejercicio práctico que recrea una situación de emergencia para entrenar a los brigadistas.',
     },
     {
-      termino: 'Triaje',
+      termino: 'Soporte Vital Básico (SVB)',
       significado:
-        'proceso de clasificar a las personas que requieren atención médica en función de la gravedad de sus lesiones o enfermedades durante una emergencia.',
+        'conjunto de maniobras esenciales para preservar la vida en emergencias médicas.',
     },
     {
-      termino: 'Voluntariado',
+      termino: 'Sustancias peligrosas',
       significado:
-        'personas que ofrecen su tiempo y habilidades para ayudar en situaciones de emergencia, a menudo sin remuneración',
+        'materiales que pueden causar daños a la salud o al medio ambiente si no se manejan adecuadamente.',
     },
   ],
 }

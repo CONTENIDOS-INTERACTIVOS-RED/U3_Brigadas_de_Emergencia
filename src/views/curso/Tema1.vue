@@ -1,6 +1,6 @@
 <template lang="pug">
 .curso-main-container.pb-3
-  BannerInterno(:subTitulo="'1. Conformación de brigadas de emergencias y Comité operativo de emergencia empresarial'")
+  BannerInterno(:subTitulo="'1. Evidencias documentales'")
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5.overflow-hidden
 
     p(data-aos="fade-left").mb-4 La adecuada gestión de emergencias requiere un sólido respaldo documental que garantice la eficacia de cada intervención realizada.
@@ -14,7 +14,7 @@
               img(src='@/assets/curso/tema1/1.png', alt='')
           .col-lg-8
             h2.mb-4(data-aos="flip-up") Evidencias documentales 
-            p.mb-4(data-aos="fade-right") En el PDF Evidencias documentales , se exploran los principales registros y documentos que aseguran la trazabilidad de las acciones, desde informes de capacitación hasta planes de emergencia actualizados. Estos elementos no solo permiten evaluar el desempeño operativo de las brigadas, sino que también proporcionan una base para la mejora continua de protocolos y estrategias, garantizando la seguridad de las personas y el cumplimiento de la normativa vigente.
+            p.mb-4(data-aos="fade-right") En el PDF Evidencias documentales, se exploran los principales registros y documentos que aseguran la trazabilidad de las acciones, desde informes de capacitación hasta planes de emergencia actualizados. Estos elementos no solo permiten evaluar el desempeño operativo de las brigadas, sino que también proporcionan una base para la mejora continua de protocolos y estrategias, garantizando la seguridad de las personas y el cumplimiento de la normativa vigente.
 
             a.anexo.mb-4.bg-white.w-fit(:href="obtenerLink('/downloads/Anexo_1.pdf')" target="_blank")(data-aos="flip-up")
               .anexo__icono(:style="{'background-color': '#FCDFDB'}")
@@ -284,7 +284,7 @@
       .px-4.px-md-5.pb-md-3
         .row.align-items-start.mb-5
           .col-lg-8
-            p(data-aos="fade-left").mb-4 A continuación, se desarrollan en profundidad las distintas condiciones y características que deben ser consideradas en el perfil de un brigadista.
+
 
             AcordionA(tipo="b")
               .div(titulo="Protocolos de actuación")
@@ -558,9 +558,9 @@
             figure
               img(src="@/assets/curso/tema1/29.png", alt="").mb-4.mb-lg-0
 
-        h4.mb-4(data-aos="fade-left") b. Técnicas de apoyo psicológico
+        h4.mb-4(data-aos="fade-left") c. Primeros auxilios psicológicos
 
-        p(data-aos="fade-left").mb-4 Los brigadistas deben estar equipados con técnicas de apoyo psicológico que les permitan brindar asistencia efectiva a las personas afectadas. Esto incluye:
+        p(data-aos="fade-left").mb-4 Finalmente, una formación en primeros auxilios psicológicos, es esencial. Este enfoque proporciona herramientas prácticas para ayudar a las víctimas a manejar sus emociones y reacciones inmediatas tras una crisis. Los componentes claves incluyen:
 
         .row.justify-content-center.align-items-stretch.mb-5
           .col-lg-6.mb-4(data-aos="zoom-in-up")

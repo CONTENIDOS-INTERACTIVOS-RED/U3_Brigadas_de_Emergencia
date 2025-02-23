@@ -1,6 +1,6 @@
 <template lang="pug">
   .curso-main-container.pb-3
-    BannerInterno(:subTitulo="'3. Conceptos básicos de las brigadas de emergencia'")
+    BannerInterno(:subTitulo="'3. Formatos e instructivos'")
     .container.tarjeta.tarjeta--blanca.p-4.p-md-5.overflow-hidden
 
         

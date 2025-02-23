@@ -14,7 +14,7 @@
                 img(src='@/assets/curso/tema2/1.png', alt='')
             .col-lg-8
               h2.mb-4(data-aos="flip-up") Procedimientos  
-              p.mb-4(data-aos="fade-right") En el PDF Procedimientos , se describen paso a paso los protocolos que deben seguirse, desde la activación de la brigada hasta la desmovilización y reposición de recursos. Este documento ofrece una guía detallada sobre cómo gestionar cada etapa de una intervención, garantizando una respuesta rápida, eficiente y segura. Además, se abordan aspectos clave como la evaluación continua, la coordinación interinstitucional y la correcta documentación de las acciones realizadas, contribuyendo a mejorar los protocolos y reforzar la capacidad operativa de las brigadas frente a situaciones críticas.
+              p.mb-4(data-aos="fade-right") En el PDF Procedimientos, se describen paso a paso los protocolos que deben seguirse, desde la activación de la brigada hasta la desmovilización y reposición de recursos. Este documento ofrece una guía detallada sobre cómo gestionar cada etapa de una intervención, garantizando una respuesta rápida, eficiente y segura. Además, se abordan aspectos clave como la evaluación continua, la coordinación interinstitucional y la correcta documentación de las acciones realizadas, contribuyendo a mejorar los protocolos y reforzar la capacidad operativa de las brigadas frente a situaciones críticas.
 
 
               a.anexo.mb-4.bg-white.w-fit(:href="obtenerLink('/downloads/Anexo_3.pdf')" target="_blank")(data-aos="flip-up")
